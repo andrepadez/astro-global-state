@@ -2,6 +2,10 @@
 
 Global state management for Astro + React Query, designed specifically for SSR/hydration safety in Astro's island architecture.
 
+## Active Development
+
+The API is final and won't change. For the use cases tested so far, Hydration Mismatch is not a problem anymore (both in development and build). If you encounter any issues, please report them as an issue so we can move this to v1 soon.
+
 ## Installation
 
 ```bash
