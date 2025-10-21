@@ -1,6 +1,6 @@
 {
   "name": "astro-global-state",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "description": "Global state management for Astro + React Query, designed for SSR/hydration safety",
   "type": "module",
   "main": "./dist/index.js",
