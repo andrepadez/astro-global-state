@@ -1,0 +1,44 @@
+{
+  "name": "astro-global-state",
+  "version": "1.0.0",
+  "description": "Global state management for Astro + React Query, designed for SSR/hydration safety",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "astro",
+    "react-query",
+    "global-state",
+    "state-management",
+    "ssr",
+    "hydration"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "@tanstack/react-query": "^4.0.0 || ^5.0.0",
+    "react": "^18.0.0"
+  },
+  "devDependencies": {
+    "@tanstack/react-query": "^5.0.0",
+    "@types/react": "^18.2.0",
+    "react": "^18.2.0",
+    "typescript": "^5.0.0"
+  }
+}
